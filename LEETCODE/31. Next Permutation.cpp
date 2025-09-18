@@ -32,5 +32,9 @@ public:
         {
             swap(nums[i], nums[j]);
         }
+
+// --------------------------------------------------------------------------------------------------
+        // easy approach
+        next_permutation(nums.begin(),nums.end());
     }
 };
