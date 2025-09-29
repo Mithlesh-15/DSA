@@ -9,7 +9,7 @@ public:
             for(int j = i+1;j<n;){
                 int k = j+1,l=n-1;
                 while(k<l){
-                    int sum = nums[i] + nums[j] + nums[k] + nums[l];
+                    long long sum = (long long)nums[i] + (long long)nums[j] + (long long)nums[k] + (long long)nums[l];
                     if(sum > target ){
                         l--;
                     } else if(sum < target){
